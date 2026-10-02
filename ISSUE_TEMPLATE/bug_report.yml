@@ -1,0 +1,19 @@
+name: Bug report
+description: Report a reproducible problem.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide steps, input, or a minimal example.
+    validations:
+      required: true
